@@ -5,4 +5,16 @@
 .rounded-circle {
   border-radius: 0 !important;
 }
+
+.pp-toolip {
+  font-family: "Vazir-FD-WOL", sans-serif !important;
+}
+
+::-moz-selection {
+  color: white !important;
+}
+
+::selection {
+  color: white !important;
+}
 /*# sourceMappingURL=update.css.map */

@@ -1,5 +1,11 @@
 .hero .hero-content p {
-  max-width: 700px;
+  max-width: 400px;
+}
+
+@media (min-width: 968px) {
+  .hero .hero-content p {
+    max-width: 700px;
+  }
 }
 
 .rounded-circle {

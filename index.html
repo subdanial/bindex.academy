@@ -61,7 +61,11 @@
                             <td>شماره تماس</td>
                             <td><input class="form-control" type="text" placeholder="***09" name=""></td>
                         </tr>
+                
                         <tr>
+                            <td>تحصیلات</td>
+                            <td><input class="form-control" type="text" placeholder="دیپلم" name=""></td>
+                        
                             <td>معرف</td>
                             <td><input class="form-control" type="text"
                                     placeholder="اختیاری" name=""></td>
@@ -70,7 +74,7 @@
                     </table>
                 </div>
                 <div class="modal-footer">
-                    <button class="btn btn-primary d-block text-right" type="button"> ارسال فرم پیش ثبت نام </button>
+                    <button class="btn btn-primary d-block text-right" type="button"  onclick="signup_done()"> ارسال فرم پیش ثبت نام </button>
                 </div>
             </div>
         </div>
@@ -873,7 +877,12 @@
 
     <!--  Custom JS  -->
     <script src="assets/js/arshia-rtl.js"></script>
-
+    <script>
+        function signup_done(){
+            alert('اطلاعات با موقیت ارسال شد');
+            location.reload();
+        }
+    </script>
 </body>
 
 </html>

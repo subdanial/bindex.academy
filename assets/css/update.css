@@ -35,3 +35,6 @@
   }
 }
 /*# sourceMappingURL=update.css.map */
+.timeline-item:before{
+  background-color: #101957;
+}
